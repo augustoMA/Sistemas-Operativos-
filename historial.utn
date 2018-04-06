@@ -1,0 +1,120 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  ls-a
+    7  ls - a
+    8  ls-A
+    9  ls-D
+   10  ls-d
+   11  los-c
+   12  ls-c
+   13  -c
+   14  ls -c
+   15  ls -a
+   16  ls -A
+   17  ls -C
+   18  ls 
+   19  pwd
+   20  man pwd
+   21  pwd
+   22  cd
+   23  cd :
+   24  cd ..
+   25  ls
+   26  cd alumno/
+   27  cd
+   28  cd..
+   29  cd ..
+   30  cd alumno/
+   31  cd ..
+   32  ls
+   33  cd alumno/
+   34  pwd
+   35  cd.. 
+   36  cd --
+   37  cd ..
+   38  ls etc
+   39  ls ap*
+   40  lsap*
+   41  ls ap *
+   42  ls up*
+   43  ls up#
+   44  ls up #
+   45  cd home/alumno/
+   46  pwd
+   47  touch miarchivo
+   48  ls
+   49  pwd
+   50  ls
+   51  ls -l
+   52  trhee
+   53  three
+   54  tree
+   55  mkdir principal
+   56  ls
+   57  mkdir principal/persona
+   58  tree
+   59  cd principal/
+   60  mkdir ../secundario
+   61  tree
+   62  ls
+   63  cd ..
+   64  tree
+   65  pwd
+   66  cd ../principal/persona
+   67  cd ../principal/persona/
+   68  ls
+   69  pwd
+   70  tree
+   71  cd..principal/persona/
+   72  cd ..principal/persona/
+   73  cd principal/persona/
+   74  tree
+   75  mkdir cd../../secundario/alumno
+   76  mkdir cd ../../secundario/alumno/
+   77  ls
+   78  tree
+   79  mkdir alumno
+   80  ls
+   81  tree
+   82  cd ../../
+   83  tree
+   84  ls
+   85  cd ../principal
+   86  tree
+   87  cd principal
+   88  mkdir uno/unoA
+   89  tree
+   90  mkdir -p uno/unoA
+   91  tree
+   92  ls
+   93  mkdir -p app/{estilos,funciones/logica,funciones/variables}
+   94  tree
+   95  mkdir -p codigo/{java,c,php}/fuentes
+   96  ls
+   97  tree
+   98  mkdir prueba/
+   99  tree
+  100  cd pureba/
+  101  tree
+  102  ls
+  103  cd ../prueba
+  104  cd prueba
+  105  tree
+  106  ls
+  107  mkdir -p dato/{Personales/publicos/backup,Personales/privados/backup,Fiscales/afip/pagos,Fiscales/arba/pagos}
+  108  tree
+  109  ../
+  110  pwd
+  111  cd ..
+  112  pwd
+  113  tree
+  114  mkdir pruebaDos/ 
+  115  tree
+  116  cd pruebaDos
+  117  pwd
+  118  ls
+  119  tree
+  120  history > historial.utn

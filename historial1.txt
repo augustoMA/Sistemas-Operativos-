@@ -1,0 +1,28 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  apt-get install wireshark
+   18  dpkg -L
+   19  dpkg -L mc
+   20  dpkg -S
+   21  cd ../
+   22  dpkg -S bin/ls
+   23  which man
+   24  /usr/bin/man/dpkg -S
+   25  dpkg -S usr/bin/man/ 
+   26  dpkg -S usr/bin/man
+   27  cd /home/alumno/
+   28  history > "historial.txt"

@@ -1,0 +1,20 @@
+memoria virtual: memoria ram que se guarda en el disco y lo hace mas lento. 
+cerrar y abrir el programa hace el proceso mas lento. 
+
+SERVIDORES
+los servidores deben tener un respaldo.n WhatsApp nunca se cae, es una MIERDA.
+
+
+DISCO RIGIDO-------->DISCO RIGIDO(copia)=>deben tragajar en paralelo.
+
+RAID:aumenta el tamaño y mejora la performance.
+
+
+					     |-DISCO3G(PARTE DEL REFLEJO) 
+DISCO RIGIDO9G------>DICO RIGIDO9G(REFLEJO)--|-DISCO3G(PARTE DEL REFLEJO)
+					     |-DISCO3G(PARTE DEL REFLEJO)
+
+
+
+
+LEER SOBRE LVM: SE UTILIZA PARA FORMATEAR, ETC.. EN CALIENTE LA MAQUINA 

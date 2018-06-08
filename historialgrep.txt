@@ -1,0 +1,81 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  apt-get install wireshark
+   18  mkdir /media/windows
+   19  mount -t vboxsf zombie /media/windows
+   20  chmod 777 zombi
+   21* 
+   22  chmod 777 Zombi
+   23  pwd
+   24  cd ../../media/windows/10-zombi\ readme.docx 
+   25  cd ../../media/windows/10-zombi
+   26  cd ../../media/windows/10-zombi/
+   27  cd ../../media/windows
+   28  10-\ zombi/
+   29  cd 10-zombi
+   30  cd /10-zombi
+   31  cd 10-zombi
+   32  chmod 777 10-z
+   33  chmod 777 10-zombi\ readme.docx 
+   34  man chmod
+   35  top
+   36  cd 10-zombi
+   37  cd /10
+   38  cd ..
+   39  cd windows/10- zombi/ 
+   40  cd windows/
+   41  cd 10-\ zombi/ 
+   42  ./zombi
+   43  top
+   44  man greep
+   45  man grep
+   46  cd ../../
+   47  cd
+   48  pwd
+   49  cd /home/alumno/
+   50  echo "tumail@tumail.com" >> Mails.txt
+   51  echo "eduardo@gmail.com" >> Mails.txt
+   52  echo "tumail@gmail.com" >> Mails.txt
+   53  echo "pepe88@hotmail.com" >> Mails.txt
+   54  echo "lgrn7@ymail.com" >> Mails.txt
+   55  echo "personas.com.soluciones@empresa.info" >> Mails.txt
+   56  more Mails.txt 
+   57  less Mails.txt 
+   58  cat Mails.txt 
+   59  grep root /etc/passwd
+   60* cat /et
+   61  cat Mails.txt | grep com$
+   62* cat Mails.txt | grep {.{ICEauthority,X{authority,defaults},bash{_{history,logout},rc},c{ache,onfig},dmrc,g{conf,nupg},local,mozilla,profile,sudo_as_admin_successful,thumbnails,vboxclient-{clipboard.pid,d{isplay.pid,raganddrop.pid},seamless.pid},xs{creensaver,ession-errors{,.old}}},D{escargas,ocumentos},Escritorio,Imágenes,M{ails.txt,úsica},P{lantillas,úblico},Vídeos,fecha.t{mp,xt},historialzombie.txt}tumail
+   63  cat Mails.txt | grep ^tumail
+   64  cat Mails.txt | grep gn
+   65  cat Mails.txt | grep gm
+   66  cat Mails.txt | grep g m
+   67  cat Mails.txt | grep [gm]
+   68* 
+   69  cat Mails.txt | grep [g m]
+   70  cat Mails.txt | grep [0-9]
+   71  cat Mails.txt | grep [g-m]
+   72  cat Mails.txt | grep [0-9]@
+   73  cat Mails.txt | grep @[0-9]
+   74  cat Mails.txt | grep [@ 0-9]
+   75  cat Mails.txt | grep @[a-z]
+   76* cat Mails.txt | grep 
+   77  cat Mails.txt | grep @[a-z]
+   78  cat Mails.txt | grep @[g-m]
+   79  cat Mails.txt | grep @[a-g]
+   80  cat Mails.txt | grep @[g-m]
+   81  history >> "historialgrep.txt"

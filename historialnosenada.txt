@@ -1,0 +1,58 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  history
+    7  pwd
+    8  more passwd
+    9  more etc/passdw
+   10  more /etc/passwd
+   11  cat /etc/shadow
+   12  sudo su
+   13  pwd
+   14  useradd -s /bin/bash -m -c "usuario de prueba" uPrueba
+   15  sudo su- 
+   16  sudo su 
+   17  sudo su
+   18  sudo su-
+   19  sudo su
+   20  sudo chown uPrueba saludar.txt 
+   21  logout 
+   22  tree
+   23  cd ..
+   24  tree
+   25  cd ..
+   26  tree
+   27  man user
+   28  man useradd
+   29  history
+   30  echo "hola">saludar.txt
+   31  ls -s
+   32  ls -la
+   33  ls -la | grep saludar
+   34  echo "echo 'hola a todos'">saludar.txt
+   35  cat saludar.txt 
+   36  chmod 764 saludar.txt 
+   37  ls -la | grep saludar
+   38  ./saludar.txt 
+   39  login uPrueba
+   40  sudo su
+   41  pwd
+   42  ls -s
+   43  ./saludar.txt
+   44  id uPrueba
+   45  id alumno
+   46  useradd -g "super" -s /bin/bash -m -c "super heroe"
+   47  useradd -g "alumno" -s /bin/bash -m -c "super heroe"
+   48  useradd -s  /bin/bash -m -c "super heroe" -G "Hombre araña" -g "super" super4
+   49  useradd -s  /bin/bash -m -c "super heroe" -G "Hombre araña" -g "alumno" super4
+   50  useradd -s  /bin/bash -m -c "super heroe" -g "alumno" super1
+   51  useradd -s  /bin/bash -m -c "super heroe" super1
+   52  sudo su
+   53  passwd -l
+   54  passwd -l alumno
+   55  sudo su -
+   56  sudo su -
+   57  sudo su -
+   58  history > "historialnosenada.txt"

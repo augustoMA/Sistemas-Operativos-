@@ -1,0 +1,63 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  apt-get install wireshark
+   18  cat /etc/shadow
+   19  sudo su-
+   20  pwd
+   21  sudo -su
+   22  useradd
+   23  useradd alviggi
+   24  cat /etc/passwd
+   25  cat /etc/shadow
+   26  passwd alviggi alviggi
+   27  cat /etc/shadow
+   28  man passwd
+   29  cat /etc/passwd | gree
+   30  cat /etc/passwd | greep alviggi
+   31  cat /etc/passwd | grep alviggi
+   32  cat /etc/shadow | grep alviggi
+   33  passwd alviggi
+   34  passwd alviggi alviggi
+   35  cat /etc/passwd | grep alviggi
+   36  cat /etc/shadow | grep alviggi
+   37  id alviggi
+   38  id alumno
+   39  usermod -s
+   40  usermod -s alviggi
+   41  usermod -s binbash alviggi
+   42  cat /etc/shadow | grep alviggi
+   43  usermod -s bin/bash alviggi
+   44  usermod -s /bin/bash alviggi
+   45  cat /etc/shadow | grep alviggi
+   46  cat /etc/passwd | grep alviggi
+   47  login
+   48  exit
+   49  useradd -s /bin/bash -m -c "usuario de prueba" uPrueba
+   50  cat /etc/passwd | grep uPrueba
+   51  cat /etc/shadow | grep uPrueba
+   52  passwd uPrueba
+   53  cat /etc/shadow | grep uPrueba
+   54  cat /etc/passwd | grep uPrueba
+   55  useradd -s /bin/bash -m -c "super heroe" super1
+   56  useradd -s /bin/bash -m -c "super heroe" -G "super1" -g "alumno" super2
+   57  cat /etc/passwd 
+   58  cat /etc/passwd | grep super
+   59  ls -la
+   60  cat /etc/gshadow
+   61  cat /etc/gpasswd
+   62  history > /home/alumno/ "historial txt"
+   63  history > /home/alumno/"historial txt"
